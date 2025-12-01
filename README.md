@@ -30,8 +30,6 @@ adaptive-password-risk-analyzer/
 │── requirements.txt
 │── .gitignore
 
-yaml
-Copy code
 
 ---
 
