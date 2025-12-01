@@ -35,28 +35,24 @@ Copy code
 
 ---
 
+
+---
+
 ## ▶️ Usage
 
 Run the analyzer:
 
 ```bash
 python adaptive_password_risk_analyzer.py
-Enter a password when prompted:
-
-pgsql
-Copy code
 Enter a password to analyze: MyPass123!
-The program outputs:
-
-mathematica
-Copy code
 Score: 72
 Risk Level: Medium
 Reasons:
 - Contains uppercase, lowercase, digits, and symbols
 - Length is sufficient
 - Pattern detected: common word fragment "pass"
-🧠 How It Works
+ How It Works
+
 The analyzer assigns points based on:
 
 Entropy calculations
@@ -68,4 +64,3 @@ Known weak substring detection
 Levenshtein-based dictionary similarity
 
 Final score → mapped to risk category.
-
